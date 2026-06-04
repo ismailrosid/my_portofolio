@@ -1,11 +1,10 @@
-
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { Moon, Sun, Menu } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { useTheme } from '@/hooks/useTheme';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Moon, Sun, Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { useTheme } from "@/hooks/useTheme";
 
 function Header() {
   const { theme, toggleTheme } = useTheme();
@@ -13,11 +12,11 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/blog', label: 'Blog' },
-    { path: '/contact', label: 'Contact' }
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/projects", label: "Projects" },
+    { path: "/blog", label: "Blog" },
+    { path: "/contact", label: "Contact" },
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -27,7 +26,7 @@ function Header() {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="font-display text-2xl font-bold">AR</span>
+            <span className="font-display text-2xl font-bold">IR</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-1">
@@ -37,8 +36,8 @@ function Header() {
                 to={link.path}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
-                    ? 'text-primary bg-primary/10'
-                    : 'text-foreground hover:text-primary hover:bg-muted'
+                    ? "text-primary bg-primary/10"
+                    : "text-foreground hover:text-primary hover:bg-muted"
                 }`}
               >
                 {link.label}
@@ -54,7 +53,7 @@ function Header() {
               className="rounded-lg"
               aria-label="Toggle theme"
             >
-              {theme === 'light' ? (
+              {theme === "light" ? (
                 <Moon className="h-5 w-5" />
               ) : (
                 <Sun className="h-5 w-5" />
@@ -76,8 +75,8 @@ function Header() {
                       onClick={() => setIsOpen(false)}
                       className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
                         isActive(link.path)
-                          ? 'text-primary bg-primary/10'
-                          : 'text-foreground hover:text-primary hover:bg-muted'
+                          ? "text-primary bg-primary/10"
+                          : "text-foreground hover:text-primary hover:bg-muted"
                       }`}
                     >
                       {link.label}

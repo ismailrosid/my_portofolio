@@ -55,16 +55,18 @@ function HomePage() {
 
                 <motion.div variants={staggerItem}>
                   <p className="text-2xl md:text-3xl font-semibold text-primary">
-                    Fullstack Developer & QA Engineer
+                    Technologist
                   </p>
                 </motion.div>
 
                 <motion.div variants={staggerItem}>
                   <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-                    Building robust web applications with modern technologies
-                    and ensuring quality through comprehensive testing
-                    strategies. Passionate about creating seamless user
-                    experiences and maintainable code.
+                    Saya adalah lulusan S1 Teknik Informatika yang antusias
+                    dalam dunia teknologi, mulai dari pengembangan perangkat
+                    lunak, quality assurance, Internet of Things (IoT), hingga
+                    machine learning. Saya senang mempelajari hal baru dan
+                    membangun solusi digital yang dapat membantu menyelesaikan
+                    permasalahan secara efektif dan efisien.
                   </p>
                 </motion.div>
 
@@ -74,7 +76,7 @@ function HomePage() {
                 >
                   <Button asChild size="lg" className="text-base">
                     <Link to="/projects">
-                      View My Work
+                      Lihat Portfolio
                       <ArrowRight className="ml-2 w-5 h-5" />
                     </Link>
                   </Button>
@@ -84,7 +86,7 @@ function HomePage() {
                     size="lg"
                     className="text-base"
                   >
-                    <Link to="/contact">Get In Touch</Link>
+                    <Link to="/contact">Hubungi Saya</Link>
                   </Button>
                 </motion.div>
               </motion.div>

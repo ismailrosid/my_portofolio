@@ -1,31 +1,54 @@
-
 export const experience = [
   {
     id: 1,
-    company: "TechFlow Solutions",
-    position: "Senior Fullstack Developer",
-    duration: "2024 - Present",
-    description: "Lead development of enterprise web applications using React, Node.js, and PostgreSQL. Implemented CI/CD pipelines and automated testing frameworks, reducing deployment time by 47%."
+    company: "PT Samick Indonesia",
+    position: "Web Developer Intern",
+    duration: "Januari 2024 - Maret 2024",
+    description:
+      "Melakukan pengembangan fitur pada aplikasi SPMS-G (Samick Production Management System - Guitar) menggunakan CodeIgniter dan PostgreSQL. Terlibat dalam seluruh siklus pengembangan perangkat lunak mulai dari development, testing, hingga deployment ke production.",
   },
   {
     id: 2,
-    company: "Digital Innovations Inc",
-    position: "QA Engineer & Developer",
-    duration: "2022 - 2024",
-    description: "Developed automated testing suites using Selenium and Cypress. Built internal tools for test management and reporting. Collaborated with development teams to improve code quality and reduce bug rates by 38%."
+    company: "PT Amanah Karya Indonesia",
+    position: "Independent Study Web Developer",
+    duration: "Februari 2025 - Agustus 2025",
+    description:
+      "Mengikuti program Studi Independen bidang Web Development dengan fokus pada Laravel 10 dan MySQL. Mempelajari pengembangan aplikasi web mulai dari dasar pemrograman, perancangan database, implementasi fitur, hingga pengujian sistem serta menyelesaikan proyek akhir sebagai implementasi kompetensi yang telah dipelajari.",
+  },
+];
+
+export const trainings = [
+  {
+    id: 1,
+    organizer: "Digital Talent Scholarship - Kominfo",
+    title: "Junior Graphic Designer",
+    duration: "Juli 2023 - Agustus 2023",
+    description:
+      "Mengikuti pelatihan Vocational School Graduate Academy (VSGA) selama 67 jam pelatihan dengan fokus pada desain grafis, pengolahan media visual, dan pengembangan konten digital.",
   },
   {
-    id: 3,
-    company: "StartupHub",
-    position: "Frontend Developer",
-    duration: "2020 - 2022",
-    description: "Created responsive web applications with React and TypeScript. Implemented design systems and component libraries. Worked closely with UX designers to deliver pixel-perfect interfaces."
+    id: 2,
+    organizer: "Digital Talent Scholarship - Kominfo",
+    title: "Junior Web Developer",
+    duration: "2020",
+    description:
+      "Mengikuti pelatihan Vocational School Graduate Academy (VSGA) dengan fokus pada pengembangan aplikasi web, pemrograman dasar, database, serta implementasi website dinamis.",
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    issuer: "Digital Talent Scholarship - Kominfo",
+    title: "Junior Graphic Designer",
+    year: "2023",
+    description: "Lulus sertifikasi kompetensi Junior Graphic Designer.",
   },
   {
-    id: 4,
-    company: "CodeCraft Academy",
-    position: "Junior Developer",
-    duration: "2019 - 2020",
-    description: "Contributed to various client projects using modern web technologies. Gained experience in full development lifecycle from requirements gathering to deployment and maintenance."
-  }
+    id: 2,
+    issuer: "Digital Talent Scholarship - Kominfo",
+    title: "Junior Web Developer",
+    year: "2020",
+    description: "Lulus sertifikasi kompetensi Junior Web Developer.",
+  },
 ];

@@ -1,15 +1,14 @@
-
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Calendar, Clock } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import { motion } from "framer-motion";
+import { Calendar, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 function BlogCard({ post, index }) {
-  const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
+  const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
   });
 
   return (
@@ -32,24 +31,20 @@ function BlogCard({ post, index }) {
             <span>{post.readTime}</span>
           </div>
         </div>
-        
+
         <h2 className="text-2xl font-semibold leading-snug">
-          <Link 
+          <Link
             to={`/blog/${post.slug}`}
             className="hover:text-primary transition-colors duration-200"
           >
             {post.title}
           </Link>
         </h2>
-        
-        <p className="text-muted-foreground leading-relaxed">
-          {post.excerpt}
-        </p>
-        
+
+        <p className="text-muted-foreground leading-relaxed">{post.excerpt}</p>
+
         <Button asChild variant="outline" className="mt-2">
-          <Link to={`/blog/${post.slug}`}>
-            Read article
-          </Link>
+          <Link to={`/blog/${post.slug}`}>Baca Artikel</Link>
         </Button>
       </div>
     </motion.article>

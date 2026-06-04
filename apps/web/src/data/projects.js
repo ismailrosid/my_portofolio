@@ -1,57 +1,178 @@
-
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with payment integration, inventory management, and real-time order tracking. Built with modern technologies for optimal performance.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    techStack: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
-    demoLink: "https://demo.example.com",
-    githubLink: "https://github.com/example/ecommerce"
+    title: "SSMIS",
+    description:
+      "Student Saving Management Information System berbasis web untuk mengelola tabungan siswa secara digital dan terintegrasi dengan Smart Saving Device. Mendukung transaksi real-time, laporan keuangan, dashboard interaktif, dan monitoring saldo.",
+    image: "/images/SSMIS.png",
+    techStack: [
+      "Laravel 11",
+      "Livewire",
+      "MySQL",
+      "REST API",
+      "Tailwind CSS",
+      "ApexCharts",
+    ],
+    demoLink: null,
+    githubLink: null,
   },
   {
     id: 2,
-    title: "Task Management Dashboard",
-    description: "Collaborative project management tool with drag-and-drop interface, team collaboration features, and advanced analytics.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
-    techStack: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-    demoLink: "https://demo.example.com",
-    githubLink: "https://github.com/example/taskmanager"
+    title: "CMS",
+    description:
+      "Content Management System untuk pengelolaan berita digital dengan fitur dashboard statistik, manajemen kategori, tag, kanal berita, hak akses, dan editor konten modern.",
+    image: "/images/CMS.png",
+    techStack: [
+      "Laravel 10",
+      "MySQL",
+      "Bootstrap 5",
+      "jQuery",
+      "DataTables",
+      "CKEditor 5",
+    ],
+    demoLink: null,
+    githubLink: null,
   },
   {
     id: 3,
-    title: "Automated Testing Framework",
-    description: "Custom testing framework for end-to-end automation with parallel execution, detailed reporting, and CI/CD integration.",
-    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
-    techStack: ["Selenium", "Python", "Jenkins", "Docker"],
+    title: "Sinata",
+    description:
+      "Sistem informasi tugas akhir mahasiswa yang menyediakan fitur logbook, jadwal bimbingan, monitoring progres, dan pengelolaan data tugas akhir secara terpusat.",
+    image: "/images/SINATA.png",
+    techStack: [
+      "Laravel 11",
+      "MySQL",
+      "Bootstrap",
+      "jQuery",
+      "DataTables",
+      "DOMPDF",
+    ],
     demoLink: null,
-    githubLink: "https://github.com/example/testing-framework"
+    githubLink: null,
   },
   {
     id: 4,
-    title: "Real-Time Chat Application",
-    description: "Scalable chat platform with WebSocket support, message encryption, file sharing, and user presence indicators.",
-    image: "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&q=80",
-    techStack: ["React", "Socket.io", "Express", "MongoDB"],
-    demoLink: "https://demo.example.com",
-    githubLink: "https://github.com/example/chat-app"
+    title: "Stuck FLOW",
+    description:
+      "Platform komunitas programmer untuk berbagi solusi coding, berdiskusi secara real-time, dan membantu developer menyelesaikan permasalahan teknis.",
+    image: "/images/STUCK_FLOW.png",
+    techStack: [
+      "Laravel 8",
+      "MySQL",
+      "Bootstrap 5",
+      "JavaScript",
+      "jQuery",
+      "Ajax",
+    ],
+    demoLink: null,
+    githubLink: null,
   },
   {
     id: 5,
-    title: "API Performance Monitor",
-    description: "Monitoring dashboard for tracking API performance metrics, uptime, response times, and error rates with alerting system.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-    techStack: ["React", "Node.js", "InfluxDB", "Grafana"],
-    demoLink: "https://demo.example.com",
-    githubLink: "https://github.com/example/api-monitor"
+    title: "Mediplants",
+    description:
+      "Website penjualan obat herbal yang dilengkapi fitur toko online, artikel kesehatan, informasi tanaman obat, dan pencarian produk berbasis kebutuhan pengguna.",
+    image: "/images/MEDIPLANTS.png",
+    techStack: [
+      "Laravel 10",
+      "Bootstrap 5",
+      "JavaScript",
+      "jQuery",
+      "Ajax",
+      "DataTables",
+    ],
+    demoLink: null,
+    githubLink: null,
   },
   {
     id: 6,
-    title: "Content Management System",
-    description: "Headless CMS with flexible content modeling, RESTful API, role-based access control, and media management.",
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
-    techStack: ["Next.js", "GraphQL", "PostgreSQL", "AWS S3"],
-    demoLink: "https://demo.example.com",
-    githubLink: "https://github.com/example/cms"
-  }
+    title: "Sistem Pakar ISPA",
+    description:
+      "Sistem pakar diagnosis awal penyakit ISPA menggunakan metode Forward Chaining untuk membantu pengguna memperoleh rekomendasi berdasarkan gejala yang dipilih.",
+    image: "/images/SISPAK_ISPA.png",
+    techStack: ["Laravel 10", "Bootstrap 5", "JavaScript", "jQuery", "DOMPDF"],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    id: 7,
+    title: "Twin Komputer",
+    description:
+      "Sistem e-commerce penjualan aksesori komputer dengan fitur pengelolaan produk, stok barang, transaksi penjualan, dan monitoring aktivitas toko.",
+    image: "/images/E_COMMERCE.png",
+    techStack: [
+      "CodeIgniter 4",
+      "MySQL",
+      "Bootstrap 5",
+      "JavaScript",
+      "jQuery",
+      "Ajax",
+    ],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    id: 8,
+    title: "Desaku SYS",
+    description:
+      "Sistem administrasi kelurahan berbasis web untuk mengelola data warga, surat menyurat, dan berbagai kebutuhan administrasi secara digital.",
+    image: "/images/E_KELURAHAN.png",
+    techStack: ["PHP", "MySQL", "Bootstrap 5", "jQuery", "Ajax", "DOMPDF"],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    id: 9,
+    title: "KMS Taman Lemon",
+    description:
+      "Knowledge Management System untuk pengelolaan budidaya tanaman lemon, monitoring aktivitas, pencatatan data, dan analisis hasil budidaya.",
+    image: "/images/KMS_LEMON.png",
+    techStack: [
+      "PHP",
+      "MySQL",
+      "Bootstrap 5",
+      "JavaScript",
+      "jQuery",
+      "DataTables",
+    ],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    id: 10,
+    title: "KMS Mental Heart Awareness",
+    description:
+      "Platform edukasi kesehatan mental yang menyediakan artikel, panduan, dan informasi untuk meningkatkan kesadaran masyarakat terhadap kesehatan psikologis.",
+    image: "/images/KMS_MENTAL.png",
+    techStack: [
+      "PHP",
+      "MySQL",
+      "Bootstrap 5",
+      "JavaScript",
+      "jQuery",
+      "DOMPDF",
+    ],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    id: 11,
+    title: "GETjob",
+    description:
+      "Platform pencarian kerja dengan fitur filter berdasarkan lokasi, kategori, dan perusahaan untuk membantu pengguna menemukan peluang karir yang sesuai.",
+    image: "/images/GET_JOB.png",
+    techStack: ["React.js", "Node.js", "Tailwind CSS", "REST API"],
+    demoLink: null,
+    githubLink: null,
+  },
+  {
+    id: 12,
+    title: "Fullkative",
+    description:
+      "Website company profile untuk penyedia layanan hosting dan domain yang menampilkan layanan, paket harga, dan informasi perusahaan secara profesional.",
+    image: "/images/FKTV.png",
+    techStack: ["PHP", "Bootstrap", "JavaScript", "HTML", "CSS"],
+    demoLink: null,
+    githubLink: null,
+  },
 ];
